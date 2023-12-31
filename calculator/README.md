@@ -1,24 +1,66 @@
-T2v1 SIMPLE CALCULATOR
-Congratulations on completing your first task. In almost no time you did it, impressive. Let's keep up the pace and keep going. 
+# Simple Calculator
 
-Moving on, here is the Task 2: Build a simple Calculator. 
+This is a basic calculator application built using React. It provides functionality for performing arithmetic calculations, evaluating expressions, and maintaining a calculation history.
 
-Requirements:
-a. UI Design can be of your choice, but it has to be a GUI app.
-b. Use your course language (Python/JS/Java) in the backend.
-c. Add any number of features of your choice. You can take inspiration from Calculator app in your phone. Please do some research on functions of a Calculator.
-d. It should have Addition, Subtraction, Multiplication, Division, Decimal functions.
-e. Input has to be given from PC keyboard.
-f. All necessary input data validations should be there in alert message box. (zero division, invalid input, incomplete input, input cannot be empty, text and special characters not allowed except Math operators.)
-g. Error messages cannot be generic. It has to be descriptive of the nature wrong input and in which input field. Eg, Name cannot be numbers, Age cannot be blank.
+## Features
 
-Reporting:
-a. Screen recording of your app's working, in .mp4 format only, max size 30MB, as attachment, to be shared here on WhatsApp.
-b. And share the code in .txt file for review.
+- Perform addition, subtraction, multiplication, and division.
+- Evaluate mathematical expressions using the 'eval' function from the 'mathjs' library.
+- Support for parentheses and percentage calculations.
+- History functionality to display past calculations.
 
-Duration:
-a. It should be submitted before 23-12-2023 including review.
-b. Do not wait for last date as it will delay your Internship certification. Earlier the better.
-c. Reviews take 3-4 days.
+## Technologies Used
 
-Best luck. Thank you. Have a great day ahead.
+- React
+- JavaScript (ES6+)
+- HTML
+- CSS
+- mathjs library
+
+## Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/the-Sunny-Sharma/Mira_SimpleCalculator.git
+
+2. Navigate to the project directory:
+
+    cd calculator
+
+3. Install dependencies:
+
+    npm install
+
+## Usage
+
+1. Start the application:
+
+    npm start
+
+2. Open the application in your browser by navigating to http://localhost:3000.
+
+3. Use the calculator interface to perform calculations, enter expressions, and view the calculation history.
+
+
+## Screenshots
+
+![Alt text](image.png)
+*This screenshot shows the main interface of the calculator, highlighting the input field and the arithmetic operations available.*
+
+![Alt text](image-1.png)
+*In this screenshot, the calculator's history panel is visible, displaying a list of past calculations performed by the user.*
+
+![Alt text](image-2.png)
+*The third screenshot demonstrates the usage of the percentage calculation feature, where a percentage value is computed based on the entered expression.*
+
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
+
+This README.md includes sections detailing features, technologies used, installation steps, usage instructions, and information on contributing to the project. You can further enhance or customize this content as needed for your project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
